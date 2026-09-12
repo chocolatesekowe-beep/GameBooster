@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GameBooster" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_variant</item>
+        <item name="android:colorAccent">@color/secondary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/on_background</item>
+        <item name="android:textColorPrimary">@color/on_background</item>
+        <item name="android:textColorSecondary">@color/on_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextStyle.Title" parent="android:TextAppearance.Large">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/on_background</item>
+    </style>
+
+    <style name="TextStyle.Subtitle" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <style name="TextStyle.Body" parent="android:TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/on_background</item>
+    </style>
+
+    <style name="TextStyle.Caption" parent="android:TextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/on_surface</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Button.Primary" parent="android:Widget.Button">
+        <item name="android:background">@color/secondary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Button.Secondary" parent="android:Widget.Button">
+        <item name="android:background">@color/surface_variant</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>
