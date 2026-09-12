@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameBooster</string>
+    <string name="app_version">1.0.0</string>
+    <string name="app_description">Performance Booster for Gaming</string>
+
+    <!-- Main Screen -->
+    <string name="boost_button">BOOST GAME</string>
+    <string name="stop_boost">STOP BOOST</string>
+    <string name="no_game_running">No game detected</string>
+    <string name="select_game">Select a Game</string>
+    <string name="game_list_empty">No games installed</string>
+    <string name="scanning_games">Scanning for games...</string>
+
+    <!-- Stats -->
+    <string name="cpu_usage">CPU Usage</string>
+    <string name="ram_usage">RAM Usage</string>
+    <string name="storage_usage">Storage</string>
+    <string name="battery_temp">Battery Temp</string>
+    <string name="fps">FPS</string>
+    <string name="not_available">N/A</string>
+    <string name="storage_free">Free</string>
+    <string name="storage_total">Total</string>
+
+    <!-- Boost Profiles -->
+    <string name="profile_balanced">Balanced</string>
+    <string name="profile_performance">Performance</string>
+    <string name="profile_battery_saver">Battery Saver</string>
+    <string name="profile_description_balanced">Balanced performance and battery life</string>
+    <string name="profile_description_performance">Maximum performance for demanding games</string>
+    <string name="profile_description_battery_saver">Extended battery life, reduced performance</string>
+
+    <!-- Game Mode Screen -->
+    <string name="game_mode">Game Mode</string>
+    <string name="disable_notifications">Disable Notifications</string>
+    <string name="reduce_animations">Reduce Animations</string>
+    <string name="disable_background_sync">Disable Background Sync</string>
+    <string name="game_mode_active">Game Mode Active</string>
+
+    <!-- Network Monitor -->
+    <string name="network_monitor">Network Monitor</string>
+    <string name="ping">Ping</string>
+    <string name="latency">Latency</string>
+    <string name="download_speed">Download</string>
+    <string name="upload_speed">Upload</string>
+    <string name="connection_quality">Connection Quality</string>
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="fair">Fair</string>
+    <string name="poor">Poor</string>
+
+    <!-- Overlay -->
+    <string name="overlay_toggle">Toggle Overlay</string>
+    <string name="close_overlay">Close</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="enable_overlay">Show Performance Overlay</string>
+    <string name="enable_overlay_summary">Display real-time stats while playing</string>
+    <string name="auto_detect_games">Auto-detect Games</string>
+    <string name="auto_detect_games_summary">Automatically scan for installed games</string>
+
+    <string name="settings_boost">Boost Settings</string>
+    <string name="boost_profile">Boost Profile</string>
+    <string name="boost_profile_summary">Select performance profile</string>
+    <string name="close_background_apps">Close Background Apps</string>
+    <string name="close_background_apps_summary">Free RAM by closing unnecessary apps</string>
+    <string name="clear_cache">Clear App Cache</string>
+    <string name="clear_cache_summary">Clear temporary cache files safely</string>
+
+    <string name="settings_network">Network</string>
+    <string name="enable_network_monitor">Network Monitor</string>
+    <string name="enable_network_monitor_summary">Monitor network performance</string>
+
+    <string name="settings_safety">About</string>
+    <string name="about">About GameBooster</string>
+    <string name="about_summary">Learn more about this app</string>
+
+    <!-- Warnings and Messages -->
+    <string name="temperature_warning">Device temperature is high!</string>
+    <string name="temperature_warning_desc">Your device is getting hot. Consider taking a break.</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_overlay">Overlay permission is required to show performance stats</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="boost_started">Boost started for</string>
+    <string name="boost_stopped">Boost stopped</string>
+    <string name="game_closed">Game closed - Boost stopped</string>
+
+    <!-- Array strings -->
+    <string-array name="boost_profile_names">
+        <item>Balanced</item>
+        <item>Performance</item>
+        <item>Battery Saver</item>
+    </string-array>
+
+    <string-array name="boost_profile_values">
+        <item>balanced</item>
+        <item>performance</item>
+        <item>battery_saver</item>
+    </string-array>
+</resources>

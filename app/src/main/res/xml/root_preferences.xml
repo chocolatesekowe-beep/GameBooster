@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_general">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="enable_overlay"
+            android:summary="@string/enable_overlay_summary"
+            android:title="@string/enable_overlay" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="auto_detect_games"
+            android:summary="@string/auto_detect_games_summary"
+            android:title="@string/auto_detect_games" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_boost">
+        <ListPreference
+            android:defaultValue="balanced"
+            android:entries="@array/boost_profile_names"
+            android:entryValues="@array/boost_profile_values"
+            android:key="boost_profile"
+            android:summary="@string/boost_profile_summary"
+            android:title="@string/boost_profile" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="close_background_apps"
+            android:summary="@string/close_background_apps_summary"
+            android:title="@string/close_background_apps" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="clear_cache"
+            android:summary="@string/clear_cache_summary"
+            android:title="@string/clear_cache" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_network">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="enable_network_monitor"
+            android:summary="@string/enable_network_monitor_summary"
+            android:title="@string/enable_network_monitor" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_safety">
+        <Preference
+            android:key="about"
+            android:summary="@string/about_summary"
+            android:title="@string/about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
